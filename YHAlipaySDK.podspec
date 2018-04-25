@@ -20,6 +20,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.frameworks       = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
+
+  s.libraries        = 'z', 'c++'
+
   s.vendored_frameworks = ["Frameworks/AlipaySDK.framework"]
   
   s.resources    = 'Resources/AlipaySDK.bundle'
