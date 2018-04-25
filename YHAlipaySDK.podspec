@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHAlipaySDK"
-  s.version      = "1.0.0"
+  s.version      = "15.5.2"
   s.summary      = "支付宝SDK"
 
   s.description  = "支付宝标准版本支付SDK  version:15.5.2  motify:2018.03.15"
